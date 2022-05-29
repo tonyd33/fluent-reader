@@ -73,7 +73,7 @@ body.darwin .menu .btn-group {
     overflow: hidden auto;
 }
 .menu-container .menu p.subs-header {
-    font-size: 12px;
+    font-size: 16px;
     color: var(--neutralSecondaryAlt);
     margin: 2px 8px;
     user-select: none;
@@ -170,7 +170,7 @@ img.favicon.dropdown {
 .settings-hint {
     user-select: none;
     line-height: 32px;
-    font-size: 12px;
+    font-size: 16px;
     color: var(--neutralSecondary);
 }
 .settings-hint.up {

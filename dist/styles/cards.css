@@ -10,7 +10,7 @@
     margin-right: 5px;
 }
 .info span.name {
-    font-size: 12px;
+    font-size: 16px;
     vertical-align: top;
     display: inline-block;
     flex-grow: 1;
@@ -27,7 +27,7 @@
     margin: 0 5px;
 }
 .info span.time {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .read-indicator,
@@ -159,7 +159,7 @@
     -webkit-box-orient: vertical;
 }
 .default-card p.snippet {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
     margin: 10px 12px;
     display: -webkit-box;
@@ -210,7 +210,7 @@
     height: 16px;
 }
 .list-card h3.title {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 18px;
     font-weight: 600;
     margin: 0;
@@ -222,7 +222,7 @@
 }
 .list-card p.snippet {
     color: var(--neutralSecondary);
-    font-size: 12px;
+    font-size: 16px;
     line-height: 16px;
     margin: 4px 0 0;
     -webkit-line-clamp: 2;
@@ -303,7 +303,7 @@
     -webkit-line-clamp: 2;
 }
 .magazine-card p.snippet {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 21px;
     -webkit-line-clamp: 3;
 }
@@ -312,7 +312,7 @@
     height: 31px;
     display: flex;
     border-bottom: 1px solid var(--neutralQuaternaryAlt);
-    font-size: 14px;
+    font-size: 18px;
     line-height: 31px;
     padding: 0 9px;
     transition: box-shadow linear 0.08s, background-color linear 0.08s;
@@ -357,5 +357,5 @@
     color: var(--neutralSecondaryAlt);
 }
 .compact-card .time {
-    font-size: 12px;
+    font-size: 16px;
 }

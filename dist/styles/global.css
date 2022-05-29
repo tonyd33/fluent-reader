@@ -70,12 +70,12 @@ body.linux {
 .ms-Button,
 .ms-ContextualMenu-item button {
     cursor: default;
-    font-size: 13px;
+    font-size: 18px;
     user-select: none;
 }
 .ms-Nav-link,
 .ms-Nav-chevronButton {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 32px;
     height: 32px;
     background-color: transparent;
@@ -172,7 +172,7 @@ nav .progress {
     background: none;
 }
 #root > nav span.title {
-    font-size: 12px;
+    font-size: 16px;
     line-height: var(--navHeight);
     vertical-align: top;
     letter-spacing: 2px;
@@ -195,7 +195,7 @@ body.darwin #root > nav span.title {
 .btn-group .seperator {
     display: inline-block;
     width: var(--navHeight);
-    font-size: 12px;
+    font-size: 16px;
     color: #c8c6c4;
     text-align: center;
     vertical-align: middle;
@@ -214,7 +214,7 @@ body.darwin .btn-group .seperator {
     text-align: center;
     line-height: 32px;
     color: var(--black);
-    font-size: 14px;
+    font-size: 18px;
     vertical-align: top;
 }
 #root > nav .btn-group .btn,

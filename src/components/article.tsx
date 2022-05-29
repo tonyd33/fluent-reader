@@ -20,7 +20,7 @@ import {
 import { shareSubmenu } from "./context-menu"
 import { platformCtrl, decodeFetchResponse } from "../scripts/utils"
 
-const FONT_SIZE_OPTIONS = [12, 13, 14, 15, 16, 17, 18, 19, 20]
+const FONT_SIZE_OPTIONS = [12, 13, 14, 15, 16, 17, 18, 19, 20, 24, 28]
 
 type ArticleProps = {
     item: RSSItem
@@ -217,9 +217,9 @@ class Article extends React.Component<ArticleProps, ArticleState> {
                 case "Escape":
                     this.props.dismiss()
                     break
-                case "ArrowLeft":
-                case "ArrowRight":
-                    this.props.offsetItem(input.key === "ArrowLeft" ? -1 : 1)
+                case "k":
+                case "j":
+                    this.props.offsetItem(input.key === "k" ? -1 : 1)
                     break
                 case "l":
                 case "L":
